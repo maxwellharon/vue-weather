@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@maxwellharon
-TylerPottsDev
-/
-weather-vue
-3
-42
-29
-Code
-Issues
-Pull requests
-6
-Actions
-Projects
-Wiki
-Security
-Insights
-weather-vue/src/App.vue
-@TylerPottsDev
-TylerPottsDev first commit
-Latest commit f41cb29 on 12 Jan 2020
- History
- 1 contributor
-169 lines (145 sloc)  3.6 KB
-
 <template>
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
